@@ -62,7 +62,8 @@ fun DetailCategory(
                     modifier = Modifier
                         .padding(
                             start = if (it % 2 == 0) 0.dp else 8.dp,
-                            end = if (it % 2 == 0) 8.dp else 0.dp
+                            end = if (it % 2 == 0) 8.dp else 0.dp,
+                            bottom = 16.dp
                         )
                         .fillMaxWidth()
                         .clip(RoundedCornerShape(16.dp))

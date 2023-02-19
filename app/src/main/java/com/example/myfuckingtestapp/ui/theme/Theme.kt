@@ -11,7 +11,7 @@ private val LightColorPalette = lightColors(
     primary = purple,
     primaryVariant = lightPurple,
     secondary = green,
-    background = Color(0xFFFCFCFC)
+    background = Color(0xFFF1F1F1)
 )
 
 @Composable
